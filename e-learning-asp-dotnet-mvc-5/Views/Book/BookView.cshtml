@@ -1,0 +1,10 @@
+﻿@model e_learning_asp_dotnet_mvc_5.Models.BookModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Book overview";
+}
+
+<h1>Book: @Model.Title</h1>
+<h2>Author: @Model.Authors</h2>
+<h3>Tag: @Model.Tags</h3>
